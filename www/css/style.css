@@ -1,0 +1,23 @@
+/* Empty. Add your own CSS if you like */
+
+select {
+    background-color: #f8f8f8;
+    border-color: #b2b2b2;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+
+    line-height: 42px;
+    margin: 0;
+    /*min-height: 47px;*/
+    min-width: 52px;
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
