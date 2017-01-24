@@ -14,7 +14,7 @@ Create a new ionic project
 
 Clone project or download as zip, copy the /www over the default one you just created.
 
-Now go to /www/app.js an fill in your own API Keys.
+Now go to /www/js/app.js an fill in your own API Keys.
 
 // Run in browser
 
