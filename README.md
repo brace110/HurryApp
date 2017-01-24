@@ -4,20 +4,24 @@ API keys are private and application will not work. Please request your own at G
 
 This application uses the Ionic Framework.
 
-To run this application please install ionic
+To run this application please install ionic v1.
 
-$ sudo npm install -g ionic cordova
+    $ sudo npm install -g ionic cordova
 
-clone project or download as zip
+Create a new ionic project
 
-$ cd HurryApp
+    $ ionic start myTitle blank
+
+Clone project or download as zip, copy the /www over the default one you just created.
+
+Now go to /www/app.js an fill in your own API Keys.
 
 // Run in browser
 
-$ ionic serve
+    $ ionic serve
 
 // Run on device.
 
-$ ionic platform add ios/android
+    $ ionic platform add ios/android
 
-$ ionic run ios/android
+    $ ionic run ios/android
